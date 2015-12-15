@@ -1,9 +1,9 @@
 <?php
-​
+
 namespace LucasRodrigues\BtnCrud\Providers;
-​
+
 use Illuminate\Support\ServiceProvider;
-​
+
 class BtnCrudServiceProvider extends ServiceProvider {
     /**
      * Bootstrap any application services.

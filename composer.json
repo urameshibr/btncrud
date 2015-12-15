@@ -13,11 +13,8 @@
         "illuminate/support": "^5.1"
     },
     "autoload": {
-      "classmap": [
-        "src"
-      ]
-    },
-    "psr-4": {
-        "LucasRodrigues\\BtnCrud\\": "src/"
+        "psr-4": {
+            "LucasRodrigues\\BtnCrud": "src"
+        }
     }
 }
