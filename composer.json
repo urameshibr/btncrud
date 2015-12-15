@@ -1,0 +1,20 @@
+{
+    "name": "lucasrodrigues/btncrud",
+    "description": "Helper que renderiza botao de crud",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LucasRodriguesBR",
+            "email": "lucas.opensource@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "^5.1"
+    },
+    "autoload": {
+      "classmap": [
+        "src"
+      ]
+    }
+}
