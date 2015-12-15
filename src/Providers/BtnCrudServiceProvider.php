@@ -1,6 +1,6 @@
 <?php
 ​
-namespace lucasrodrigues\PackageName\Providers;
+namespace LucasRodrigues\BtnCrud\Providers;
 ​
 use Illuminate\Support\ServiceProvider;
 ​
@@ -14,5 +14,10 @@ class BtnCrudServiceProvider extends ServiceProvider {
     {
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'btncrud');
         require __DIR__ . '/../Helpers/btncrud.php';
+    }
+
+    public function register()
+    {
+
     }
 }

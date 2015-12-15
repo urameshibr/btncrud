@@ -16,5 +16,8 @@
       "classmap": [
         "src"
       ]
+    },
+    "psr-4": {
+        "LucasRodrigues\\BtnCrud\\": "src/"
     }
 }
